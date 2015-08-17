@@ -17,6 +17,7 @@ namespace CSExercises
             Console.Write("enter distance traveled by ABC taxi =");
             distance = Convert.ToDouble(Console.ReadLine());
             tfare = 2.4 + distance * .4;
+            tfare = Math.Ceiling(tfare * 10) / 10;
             Console.Write("round fare is {0:c}", tfare);
             Console.ReadLine();
         }
