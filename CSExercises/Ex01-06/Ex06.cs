@@ -7,9 +7,9 @@ using System.Threading.Tasks;
 
 namespace CSExercises
 {
-    class Ex06
+    public class Ex06
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             int A;
             double B;
