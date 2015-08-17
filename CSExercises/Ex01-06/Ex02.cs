@@ -15,10 +15,11 @@ namespace CSExercises
             double B;
 
             Console.Write("Enter an integer= ");
-            A = ISS.RV.LIB.ISSConsole.ReadInt();
+            A = Convert.ToInt16(Console.ReadLine());
             B = (A)*(A);
-            Console.WriteLine("Square of integer= " + B);
-            Console.ReadLine();
+//            Console.WriteLine("Square of integer= " + B);
+            Console.WriteLine(B);
+//            Console.ReadLine();
 
 
 
