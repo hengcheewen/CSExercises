@@ -13,7 +13,7 @@ namespace CSExercises
         {
             double A;
             double B;
-            double C;
+            //double C;
 
             Console.Write("Enter a double precision number= ");
             A = Convert.ToDouble(Console.ReadLine());
