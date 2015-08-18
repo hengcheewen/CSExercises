@@ -16,8 +16,7 @@ namespace CSExercises
             Console.WriteLine("enter distance traveled by ABC cab =");
             distance = Convert.ToDouble(Console.ReadLine());
             tfare = 2.4 + distance * .4;
-            tfare = Math.Ceiling(tfare);
-            
+            tfare = Math.Round(tfare * 10) / 10;
             Console.Write("round fare is {0:c}", tfare);
             Console.ReadLine();
             
